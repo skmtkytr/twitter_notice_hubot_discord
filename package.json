@@ -21,6 +21,6 @@
     "hubot-twitter-egosearch": "0.0.10"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "0.10.x"
   }
 }
