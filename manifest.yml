@@ -1,5 +1,5 @@
 applications:
-- buildpack: https://github.com/skmtkytr/twitter_notice_hubot_discord.git
+- buildpack: https://github.com/jthomas/nodejs-v4-buildpack.git
   command: ./bin/hubot -a discord -n exile_twit_bot
   path: .
   instances: 1
