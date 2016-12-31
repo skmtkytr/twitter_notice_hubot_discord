@@ -1,0 +1,6 @@
+applications:
+- buildpack: https://github.com/skmtkytr/twitter_notice_hubot_discord.git
+  command: ./bin/hubot -a discord -n exile_twit_bot
+  path: .
+  instances: 1
+  memory: 256M
